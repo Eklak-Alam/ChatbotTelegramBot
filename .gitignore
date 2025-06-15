@@ -1,0 +1,60 @@
+# 🔐 Don't track secrets
+.env
+.env.*  # like .env.production or .env.local
+
+# 🧠 IDE/Editor settings
+.vscode/
+.idea/
+*.swp
+
+# 🗑️ System files
+.DS_Store
+Thumbs.db
+
+# 🧪 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ⚙️ OS-specific
+*.bak
+*.tmp
+
+# 📦 Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# 🐍 Python (if you're using it for your bot)
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ☕ Java / Spring Boot (if used)
+target/
+*.class
+
+# 📦 Maven / Gradle
+*.war
+*.jar
+*.iml
+
+# 🧪 Test coverage
+coverage/
+.nyc_output/
+
+# 📸 Static site generators (optional)
+public/
+out/
+.next/
+
+# 🔍 Others
+*.log
+*.sqlite3
+*.db
+*.pid
